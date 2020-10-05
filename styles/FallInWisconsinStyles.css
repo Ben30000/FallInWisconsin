@@ -1,0 +1,80 @@
+
+
+.mainHeader {
+    background-image: url(../images/mainHeaderBG.png);
+    text-align: center;
+    padding:20px;
+    font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    color:white;
+}
+
+.mainFooter {
+    background-color: olivedrab;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color:black;
+}
+
+
+.horizontalNavBar {
+    background-color: rgb(99, 52, 38);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.horizontalNavBar a {
+    float: left;
+    display: block;
+    font-size: 24px;
+    color:yellow;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.horizontalNavBar a:hover {
+    background-color: wheat;
+}
+
+/* Clear floats after the columns in horizontalNavBar */
+.horizontalNavBar::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.row {
+    height: 900px;
+    background-color: black;
+}
+
+.verticalMenu {
+    float: left;
+    width: 11%;
+    
+}
+
+.verticalMenu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: rgb(129, 129, 45);
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19px;
+}
+
+.verticalMenu a:hover {
+    background-color: beige;
+}
+
+.mainArticle {
+    float: left;
+    background-color: aquamarine;
+    width: 89%;
+    height: 100%;
+}
